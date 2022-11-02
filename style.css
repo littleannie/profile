@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap');
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: rgb(50 50 50);
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  width: 100vw;
+}
+
+h1 {
+  color: rgba(238,174,202,1);
+  font-size: 30px;
+}
+
+h2, h3 {
+  color: #94bbe9;
+  font-size: 20px;
+}
+
+.btn-gray {
+  background-color: rgba(238,174,202,1);
+  border: 2px solid rgb(50 50 50);
+  border-radius: 30px;
+  box-shadow: rgb(50 50 50) 4px 4px 0 0;
+  color: rgb(50 50 50);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-gray:hover {
+  background-color: #abc5c8;
+  color: white;
+}
+
+.btn-gray:active {
+  box-shadow: rgb(50 50 50) 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  background: url(images/Anne.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.block-container {
+    background-color: white;
+    border-radius: 4px;
+    padding: 30px;
+    width: 70vw;
+    margin: 30px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .block-container {
+  width: 70vw;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  display: inline-block;
+  font-size: 40px;
+}
+
+.btn-social {
+  color: rgb(33, 58, 61);
+}
+
+.btn-social i:hover {
+  color: rgba(148,187,233,1);
+}
+
+.fa-brands {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  color: rgba(238,174,202,1);
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-text {
+  background-color: rgba(238, 174, 202, 0.642);
+  color: rgb(33, 58, 61);
+  border-radius: 4px;
+}
+
+.img {
+  width: 100px;
+  height: auto;
+  /* background-position: 50% 50%;
+  background-size: cover; */
+  /* border-radius: 4%; */
+  margin: 0 auto;
+  padding: 20px;
+}
